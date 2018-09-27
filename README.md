@@ -1,3 +1,9 @@
+I made a web app of my resume.
+
+If you are interested in reading it, please visit: [work in progress]
+
+If you like my work and want to use it for your own project, feel free to fork this repo ! 
+
 # Myresume
 
 To start your Phoenix server:
