@@ -17,7 +17,9 @@
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
       <%= render @view_module, @view_template, assigns %>
     </main>
-    <%= render MyresumeWeb.SharedView, "footer.html", assigns %>
+    <footer>
+      <%= render MyresumeWeb.SharedView, "footer.html", assigns %>
+    </footer>
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>

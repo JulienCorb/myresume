@@ -1,4 +1,4 @@
-<section class="hero is-medium is-primary is-bold">
+<section class="hero is-medium is-info is-bold">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
@@ -7,6 +7,23 @@
       <h2 class="subtitle">
         Here is my resume
       </h2>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="columns">
+    <div class="column">
+      <div class="content has-text-centered">
+        <h1>Where it all started</h1>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content has-text-centered">
+        <p>This section tells you briefly about my life until I graduate from high school.</p>
+      </div>
+      <div class="has-text-centered">
+        <a class="button is-medium is-info">Read more</a>
+      </div>
     </div>
   </div>
 </section>
