@@ -1,0 +1,8 @@
+<div class="column">
+  <div class="content has-text-centered">
+    <p><%= @text %></p>
+  </div>
+  <div class="has-text-centered">
+    <a class="button is-medium is-info">Read more</a>
+  </div>
+</div>

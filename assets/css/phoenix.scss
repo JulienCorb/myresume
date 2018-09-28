@@ -1,0 +1,6 @@
+@media(max-width: 767px) {
+  .is-reverse-wrapped {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+}

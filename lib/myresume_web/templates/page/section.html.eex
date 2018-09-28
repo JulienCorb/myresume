@@ -1,0 +1,17 @@
+<section class="section">
+  <div class="columns is-reverse-wrapped">
+    <div class="column">
+      <div class="content has-text-centered">
+        <h1><%= @title %></h1>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content has-text-centered">
+        <p><%= @text %></p>
+      </div>
+      <div class="has-text-centered">
+        <a class="button is-medium is-info">Read more</a>
+      </div>
+    </div>
+  </div>
+</section>

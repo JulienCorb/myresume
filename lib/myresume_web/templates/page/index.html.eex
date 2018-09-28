@@ -12,18 +12,25 @@
 </section>
 <section class="section">
   <div class="columns">
-    <div class="column">
-      <div class="content has-text-centered">
-        <h1>Where it all started</h1>
-      </div>
-    </div>
-    <div class="column">
-      <div class="content has-text-centered">
-        <p>This section tells you briefly about my life until I graduate from high school.</p>
-      </div>
-      <div class="has-text-centered">
-        <a class="button is-medium is-info">Read more</a>
-      </div>
-    </div>
+    <%= render MyresumeWeb.PageView, "section_title.html", title: "Where it all started" %>
+    <%= render MyresumeWeb.PageView, "section_text.html", text: "This section tells you briefly about my life until I graduate from high school." %>
+  </div>
+</section>
+<section class="section">
+  <div class="columns is-reverse-wrapped">
+    <%= render MyresumeWeb.PageView, "section_text.html", text: "I spent six years in higher education. And worked on many incredible things." %>
+    <%= render MyresumeWeb.PageView, "section_title.html", title: "Educational Background" %>
+  </div>
+</section>
+<section class="section">
+  <div class="columns">
+    <%= render MyresumeWeb.PageView, "section_title.html", title: "My love story with coding" %>
+    <%= render MyresumeWeb.PageView, "section_text.html", text: "Find out how I became a developer, what my stack is, and what are the projects I've built so far." %>
+  </div>
+</section>
+<section class="section">
+  <div class="columns is-reverse-wrapped">
+    <%= render MyresumeWeb.PageView, "section_text.html", text: "I'm a very curious person. Appart from coding, I have many activites that fullfil my life." %>
+    <%= render MyresumeWeb.PageView, "section_title.html", title: "Extra Hobies" %>
   </div>
 </section>
